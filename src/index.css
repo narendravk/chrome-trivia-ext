@@ -5,9 +5,145 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height:700px;
+  min-width:450px;
 }
-
+h2{
+  color:#ffffff;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    color: #e8eaee;
+    font-size: 28px;
+
+}
+
+.que-style{
+  background-color:darkmagenta;
+  min-height:max-content;
+  margin:10px 20px 10px 20px;
+  font-size: calc(14px + 2vmin);
+  margin: auto;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
+  border-radius: 50px;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color:darkmagenta;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(14px + 2vmin);
+  color: white;
+  border-radius:50px;
+}
+.App-Content{
+  background-color: dimgrey;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btnTrue {
+  background: #008c85;
+  background-image: -webkit-linear-gradient(top, #008c85, #80edc7);
+  background-image: -moz-linear-gradient(top, #008c85, #80edc7);
+  background-image: -ms-linear-gradient(top, #008c85, #80edc7);
+  background-image: -o-linear-gradient(top, #008c85, #80edc7);
+  background-image: linear-gradient(to bottom, #008c85, #80edc7);
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  text-shadow: 1px 1px 3px #666666;
+  -webkit-box-shadow: 8px 6px 6px #666666;
+  -moz-box-shadow: 8px 6px 6px #666666;
+  box-shadow: 8px 6px 6px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: calc(14px + 2vmin);
+  padding: 8px 20px 10px 20px;
+  margin:10px;
+  text-decoration: none;
+}
+
+.btnTrue:hover {
+  background: #4ac906;
+  text-decoration: none;
+}
+.btnFalse {
+  background: #8a0075;
+  background-image: -webkit-linear-gradient(top, #8a0075, #ff0a0a);
+  background-image: -moz-linear-gradient(top, #8a0075, #ff0a0a);
+  background-image: -ms-linear-gradient(top, #8a0075, #ff0a0a);
+  background-image: -o-linear-gradient(top, #8a0075, #ff0a0a);
+  background-image: linear-gradient(to bottom, #8a0075, #ff0a0a);
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  text-shadow: 1px 1px 3px #666666;
+  -webkit-box-shadow: 8px 6px 6px #666666;
+  -moz-box-shadow: 8px 6px 6px #666666;
+  box-shadow: 8px 6px 6px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: calc(14px + 2vmin);
+  padding: 8px 20px 10px 20px;
+  margin:10px;
+  text-decoration: none;
+}
+
+.btnFalse:hover {
+  background: #f0306a;
+  text-decoration: none;
+}
+
+footer{
+  height:fit-content;
+  position: fixed;
+  font-size: calc(10px + 2vmin);
+  color: aliceblue;
+  background-color: #8a0075;
+  border-radius: 25px;
+  position: fixed;
+  bottom: 0;
+  /* center the element */
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  /* give it dimensions */
+  width: 50%;
+}
+
+a{
+  color:#e8eaee;
 }
